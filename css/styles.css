@@ -222,3 +222,54 @@
   /* or 200% */
   color: rgba(255, 255, 255, 0.4);
 }
+.examples .lable {
+  visibility: hidden;
+}
+.examples .title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--prime-text-color);
+}
+/* .examples .title:hover,
+.examples .title:focus {
+  color: #ffffff;
+} */
+.examples .button {
+  background-color: #f5f4fa;
+}
+.examples .title:hover,
+.examples .title:focus {
+  background-color: var(--focused-color);
+  color: #ffffff;
+}
+.projects {
+  list-style: none;
+}
+.projects .description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  /* or 156% */
+  color: #ffffff;
+}
+.projects .name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+.projects .type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  color: #757575;
+}

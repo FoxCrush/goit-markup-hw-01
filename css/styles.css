@@ -9,6 +9,15 @@
   --description-text-color: #757575;
   --footer-dark-grey-text-color: rgba(255, 255, 255, 0.4);
 }
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+} */
 .body {
   background-color: var(--main-bgc-white);
   font-family: 'Roboto', sans-serif;
